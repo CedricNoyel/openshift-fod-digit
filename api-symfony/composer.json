@@ -2,7 +2,7 @@
   "type": "project",
   "license": "proprietary",
   "require": {
-    "php": "^7.0",
+    "php": "^7.2.5",
     "ext-ctype": "*",
     "ext-iconv": "*",
     "api-platform/api-pack": "^1.2",
@@ -22,6 +22,9 @@
     "optimize-autoloader": true,
     "preferred-install": {
       "*": "dist"
+    },
+    "platform": {
+      "php": "7.2.5"
     },
     "sort-packages": true
   },
